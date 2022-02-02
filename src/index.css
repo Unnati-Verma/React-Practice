@@ -1,0 +1,26 @@
+.App{
+    border: 1px solid gray;
+    height: 90vh;
+    background: #f1f5f8;
+}
+.Box{
+    text-align: center;
+    font-family: 'Comforter', cursive;
+}
+
+.try{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+
+
+@media screen and (min-width:768px) {
+    .try{
+        grid-template-columns: auto;
+    }
+}
